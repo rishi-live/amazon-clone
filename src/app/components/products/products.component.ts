@@ -14,7 +14,7 @@ export class ProductsComponent implements OnInit {
 
 
   addToCart(p: any) {
-    console.log("pp");
+    console.log("products add to cart", p);
     this.shopping_cart.addProduct(p)
     
   }
